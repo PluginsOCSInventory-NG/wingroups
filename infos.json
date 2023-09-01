@@ -1,0 +1,12 @@
+{
+  "displayName" : "Wingroups",
+  "author" : ["Léa DROGUET"],
+  "contributor" : [""],
+  "supportedAgent" : ["Windows"],
+  "version" : "1.0",
+  "licence" : "GPLv2",
+  "description" : {
+    "fr" : "Remonte les membres d'un ou de plusieurs groupes locaux",
+    "en" : "Retrieve members of one or more local groups"
+  }
+}
