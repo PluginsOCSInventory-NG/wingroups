@@ -39,7 +39,6 @@ $default_fields= $list_fields;
 $sql=prepare_sql_tab($list_fields);
 $sql['SQL']  .= "FROM $table_name WHERE (hardware_id=$systemid)";
 
-error_log("SQL: " . $sql['SQL']);
 array_push($sql['ARG'],$systemid);
 $tab_options['ARG_SQL']=$sql['ARG'];
 $tab_options['ARG_SQL_COUNT']=$systemid;
